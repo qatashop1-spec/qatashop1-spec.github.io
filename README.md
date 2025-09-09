@@ -1,24 +1,22 @@
-# 369origins-ads-file
+# app-ads.txt cho ứng dụng 369 Origins
 
-Repo này được tạo để chứa file **app-ads.txt** và nội dung phục vụ xác minh quảng cáo (AdMob) cho ứng dụng **369 Origins**.
+Repo này được sử dụng để phục vụ file **app-ads.txt** tại đúng vị trí gốc của GitHub Pages, nhằm xác minh quyền sở hữu ứng dụng **369 Origins** với các nền tảng quảng cáo như AdMob.
 
 ---
 
 ## 📂 Nội dung repo
-- `index.html` → Trang chính hiển thị khi truy cập GitHub Pages.
-- `app-ads.txt` → File xác minh AdMob, cần đặt ở root để Google có thể crawl.
-- `README.md` → File mô tả dự án.
+- `app-ads.txt` → File xác minh AdMob, nằm tại root để Google có thể crawl.
+- `README.md` → Mô tả repo và mục đích sử dụng.
 
 ---
 
 ## 🔗 Liên kết quan trọng
-- Trang GitHub Pages: [https://qatashop1-spec.github.io/369origins-ads-file/](https://qatashop1-spec.github.io/369origins-ads-file/)
-- File app-ads.txt: [https://qatashop1-spec.github.io/369origins-ads-file/app-ads.txt](https://qatashop1-spec.github.io/369origins-ads-file/app-ads.txt)
+- File app-ads.txt: [https://qatashop1-spec.github.io/app-ads.txt](https://qatashop1-spec.github.io/app-ads.txt)
 
 ---
 
 ## ℹ️ Ghi chú
-- File **app-ads.txt** bắt buộc phải có trong root để AdMob xác minh.  
+- File **app-ads.txt** cần nằm ở thư mục gốc của GitHub Pages để xác minh hợp lệ.
 - Nếu cần bổ sung thêm seller cho quảng cáo, chỉ cần chỉnh sửa file `app-ads.txt` và commit lại.
 
 ---

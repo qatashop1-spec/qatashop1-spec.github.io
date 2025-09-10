@@ -12,14 +12,14 @@ Repo này được tạo để chứa file **app-ads.txt** và nội dung phục
 ---
 
 ## 🔗 Liên kết quan trọng
-- Trang GitHub Pages: [https://qatashop1-spec.github.io/369origins-ads-file/](https://qatashop1-spec.github.io/)
-- File app-ads.txt: [https://qatashop1-spec.github.io/369origins-ads-file/app-ads.txt](https://qatashop1-spec.github.io/app-ads.txt)
+- Trang GitHub Pages: [https://qatashop1-spec.github.io/](https://qatashop1-spec.github.io/)
+- File app-ads.txt: [https://qatashop1-spec.github.io/app-ads.txt](https://qatashop1-spec.github.io/app-ads.txt)
 
 ---
 
 ## ℹ️ Ghi chú
-- File **app-ads.txt** bắt buộc phải có trong root để AdMob xác minh.  
-- Nếu cần bổ sung thêm seller cho quảng cáo, chỉ cần chỉnh sửa file `app-ads.txt` và commit lại.
+- File **app-ads.txt** bắt buộc phải có trong root repo (cùng cấp với README.md) để AdMob xác minh.  
+- Nếu cần bổ sung thêm seller cho quảng cáo, chỉ cần chỉnh sửa file `app-ads.txt` và commit lại.  
 
 ---
 

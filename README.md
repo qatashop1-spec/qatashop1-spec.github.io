@@ -12,8 +12,8 @@ Repo này được tạo để chứa file **app-ads.txt** và nội dung phục
 ---
 
 ## 🔗 Liên kết quan trọng
-- Trang GitHub Pages: [https://qatashop1-spec.github.io/369origins-ads-file/](https://qatashop1-spec.github.io/369origins-ads-file/)
-- File app-ads.txt: [https://qatashop1-spec.github.io/369origins-ads-file/app-ads.txt](https://qatashop1-spec.github.io/369origins-ads-file/app-ads.txt)
+- Trang GitHub Pages: [https://qatashop1-spec.github.io/369origins-ads-file/](https://qatashop1-spec.github.io/)
+- File app-ads.txt: [https://qatashop1-spec.github.io/369origins-ads-file/app-ads.txt](https://qatashop1-spec.github.io/app-ads.txt)
 
 ---
 

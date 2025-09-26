@@ -17,10 +17,69 @@
     gtag('js', new Date());
     gtag('config', 'AW-16791432320');
   </script>
+
+  <!-- Thêm CSS đơn giản cho banner -->
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background: #111;
+      color: white;
+    }
+    .banner-big img {
+      width: 100%;
+      max-width: 900px;
+      border-radius: 12px;
+      cursor: pointer;
+      margin: 20px 0;
+    }
+    .banner-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 15px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .banner-grid img {
+      width: 100%;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+  </style>
 </head>
 <body>
   <h1>Xin chào 👋</h1>
   <p>Đây là trang GitHub Pages cho <b>qatashop1-spec</b>.</p>
   <p>File <a href="app-ads.txt">app-ads.txt</a> cũng đã được publish thành công.</p>
+
+  <!-- 🚀 Banner Donate -->
+  <div class="banner-big">
+    <a href="https://www.paypal.com/donate?hosted_button_id=XXXX" target="_blank">
+      <img src="images/banner-big.jpg" alt="Donate Big Banner">
+    </a>
+  </div>
+
+  <div class="banner-grid">
+    <a href="https://www.paypal.com/donate?hosted_button_id=XXXX" target="_blank">
+      <img src="images/banner1.jpg" alt="Donate 1">
+    </a>
+    <a href="https://momo.vn/qr/yourid" target="_blank">
+      <img src="images/banner2.jpg" alt="Donate 2">
+    </a>
+    <a href="https://www.buymeacoffee.com/yourid" target="_blank">
+      <img src="images/banner3.jpg" alt="Donate 3">
+    </a>
+    <a href="https://www.patreon.com/yourid" target="_blank">
+      <img src="images/banner4.jpg" alt="Donate 4">
+    </a>
+    <a href="images/momo_qr.png" target="_blank">
+      <img src="images/banner5.jpg" alt="Donate 5">
+    </a>
+    <a href="mailto:youremail@example.com" target="_blank">
+      <img src="images/banner6.jpg" alt="Donate 6">
+    </a>
+  </div>
+  <!-- 🚀 End Banner Donate -->
+
 </body>
 </html>

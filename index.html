@@ -6,7 +6,6 @@
   <meta name="p:domain_verify" content="78e07fbb85a0f83653a7a64fb258fd5f"/>
   <title>qatashop1-spec</title>
 
-  
   <!-- Mã AdSense -->
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5131934982948081"
      crossorigin="anonymous"></script>
@@ -44,15 +43,48 @@
       gap: 15px;
       max-width: 600px;
       margin: 20px auto;
-      justify-items: center; /* căn giữa QR code dọc */
+      justify-items: center;
     }
 
     .banner-grid img {
       width: 70%;
-      max-width: 180px;  /* phù hợp QR code dọc */
+      max-width: 180px;  
       height: auto;
       border-radius: 8px;
       cursor: pointer;
+    }
+
+    /* 2 banner vuông cuối cùng */
+    .banner-container {
+      display: flex;           
+      gap: 10px;               
+      justify-content: center; 
+      flex-wrap: wrap;         
+      margin: 20px 0;
+    }
+
+    .banner {
+      width: 48%;              
+      aspect-ratio: 1/1;      
+      overflow: hidden;
+      border-radius: 10px;     
+    }
+
+    .banner img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;       
+      cursor: pointer;
+    }
+
+    footer {
+      font-size:0.85em;
+      margin-top:20px;
+      text-align:center;
+      background:#222;
+      color:white;
+      padding:10px;
+      border-radius:8px;
     }
   </style>
 </head>
@@ -61,45 +93,54 @@
   <p>Welcome to 369 Origins. Wishing you a happy and lucky day!</p>
 
   <div class="banner-big">
-  <a href="images/donate.png" target="_blank">
-    <img src="images/donate.png" alt="Donate Banner">
-  </a>
-</div>
+    <a href="images/donate.png" target="_blank">
+      <img src="images/donate.png" alt="Donate Banner">
+    </a>
+  </div>
 
   <div class="banner-big">
-  <a href="images/paypal2.png" target="_blank">
-    <img src="images/paypal2.png" alt="Donate Banner">
-  </a>
-</div>
+    <a href="images/paypal2.png" target="_blank">
+      <img src="images/paypal2.png" alt="Donate Banner">
+    </a>
+  </div>
 
-  <!-- 🚀 Banner Donate lớn -->
   <div class="banner-big">
     <a href="https://play.google.com/store/apps/details?id=com.misen.company" target="_blank">
       <img src="images/369banner.png" alt="Donate Big Banner">
     </a>
   </div>
 
-  <!-- Banner Donate lớn thứ 2 -->
-<div class="banner-big">
-  <a href="https://play.google.com/store/apps/details?id=com.misen.company" target="_blank">
-    <img src="images/3692.png" alt="Donate Banner">
-  </a>
-</div>
+  <div class="banner-big">
+    <a href="https://play.google.com/store/apps/details?id=com.misen.company" target="_blank">
+      <img src="images/3692.png" alt="Donate Banner">
+    </a>
+  </div>
 
   <div class="banner-big">
-  <a href="https://play.google.com/store/apps/details?id=com.misen.company" target="_blank">
-    <img src="images/banner6.png" alt="Donate Banner">
-  </a>
-</div>
+    <a href="https://play.google.com/store/apps/details?id=com.misen.company" target="_blank">
+      <img src="images/banner6.png" alt="Donate Banner">
+    </a>
+  </div>
 
   <!-- NUTRIENCE -->
   <a href="https://nutrience.vn/" target="_blank">
     <img src="images/nutrience.jpg" alt="Pet Food">
   </a>
 
-<footer style="font-size:0.85em; margin-top:20px; text-align:center; background:#222; color:white; padding:10px; border-radius:8px;">
-  USDT Donate (TRC20): <b>TQQ1nyVg3fXvS8JJYe1GoLTYXXQSLAwekg</b>
-</footer>
+  <!-- 2 banner vuông cuối cùng -->
+  <div class="banner-container">
+    <div class="banner banner-left">
+      <img src="images/banner1.jpg" alt="Banner 1">
+    </div>
+    <div class="banner banner-right">
+      <img src="images/banner2.jpg" alt="Banner 2">
+    </div>
+  </div>
 
-  </body>
+  <!-- Footer -->
+  <footer>
+    USDT Donate (TRC20): <b>TQQ1nyVg3fXvS8JJYe1GoLTYXXQSLAwekg</b>
+  </footer>
+
+</body>
 </html>
